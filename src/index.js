@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+// Componentes
+import { GiftExpertApp } from './GiftExpertApp';
+
 import reportWebVitals from './reportWebVitals';
 
+import './index.css';
+import './bootstrap.min.css';
+import './animations.css';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <GiftExpertApp />,
   document.getElementById('root')
 );
 
